@@ -1,0 +1,46 @@
+html {
+	overflow-x: hidden;
+}
+
+#summoner-anchor h5 {
+	text-decoration: underline;
+}
+
+#summoner-anchor h4 span{
+	font-size: 0.7em;
+}
+
+.champ-name {
+	font-weight: bold;
+}
+
+.match-date {
+	font-weight: bold;
+}
+
+.search-container {
+	position: relative;
+	top: 5px;
+	left: 20px;
+}
+
+#region {
+	height: 26px;
+}
+
+header {
+	width: 100%;
+	height: 35px;
+	background: #313131;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+footer {
+	height: 75px;
+	line-height: 75px;
+	border-top: 1px solid #b7b7b7;
+	margin-top: 50px;
+	text-align: right;
+}

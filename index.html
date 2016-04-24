@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Summoner Stats | League of Legends</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+	<header>
+		<div class="search-container">
+			<input id="inputuser" placeholder="Search Summoner" />
+			<button id="search">Search</button>
+			<select id="region">
+				<option value="br">Brazil</option>
+				<option value="eune">EU Nordic,East</option>
+				<option value="euw">EU West</option>
+				<option value="jp">Japan</option>
+				<option value="kr">Korea</option>
+				<option value="lan">Latin America North</option>
+				<option value="las">Latin America South</option>
+				<option value="na" selected="selected">North America</option>
+				<option value="oce">Oceania</option>
+				<option value="ru">Russian</option>
+				<option value="tr">Turkey</option>
+			</select>
+		</div>
+	</header>
+
+	<div class="container">
+		<section id="summoner-anchor">
+			<h3>League of Legends</h3>
+			<h2>Summoner Stats Generator</h2> 
+			<br />
+			<h4>Type in the name of any player above (search is case-sensitive)</h4>
+		</section>
+		<canvas id="win-ratio-chart" width="150" height="150"></canvas>
+		<hr>
+		<section id="champs-anchor"></section>
+		<hr>
+		<section id="match-anchor"></section>
+		<footer>
+			<p>Site by Don Chatelain 2016</p>
+		</footer>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
